@@ -37,12 +37,22 @@ function timesUp() {
 }
 
 
+
 function disableButtons() {
-  var buttons = document.getElementsByName('question0');
-  for (var i = 0; i < buttons.length; i++) {
-    buttons[i].disabled = true;
-  }
+  var buttons = document.getElementsByClassName("radiobutton");
+    var i;
+    for (i = 0; i < buttons.length; i++) {
+      buttons[i].disabled = true;
+    }
 }
+
+
+//function disableButtons() {
+  //var buttons = document.getElementsByName('question0');
+  //for (var i = 0; i < buttons.length; i++) {
+    //buttons[i].disabled = true;
+  //}
+//}
 
 
 
@@ -52,20 +62,31 @@ document.getElementById('submitAnswer').click = stopTimer;
 
 function stopTimer() {
   seconds = 0;
-  //document.getElementById('countdown').textContent = "Hellloooooo";
-  message.textContent = "omggg";
 }
 
 
-//Run Timer after clicking Next Button
-//document.getElementById('nextButton').onclick = resetSecondpassed;
+//Re-enable buttons after clicking Next Button
+
+//document.getElementById('nextButton').onclick = enableButtons;
+
+
+
 
 function resetSecondpassed() {
   seconds = 21;
   secondPassed();
+  enableButtons();
 }
 
 
+function enableButtons() {
+  var buttons = document.getElementsByClassName("radiobutton");
+    var i;
+    for (i = 0; i < buttons.length; i++) {
+      buttons[i].disabled = false;
+      buttons[i].checked = false;
+    }
+}
 
 
 

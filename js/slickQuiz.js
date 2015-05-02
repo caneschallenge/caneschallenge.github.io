@@ -175,7 +175,7 @@
 
                                 // If question has >1 true answers and is not a select any, use checkboxes; otherwise, radios
                                 var input = '<input id="' + optionId + '" name="' + inputName +
-                                            '" type="' + inputType + '" />';
+                                            '" type="' + inputType + '" class="radiobutton"/>';
 
                                 var optionLabel = '<label for="' + optionId + '">' + answer.option + '</label>';
 

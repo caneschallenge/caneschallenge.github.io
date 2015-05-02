@@ -2,7 +2,7 @@
 /* Styles to prettify the quiz page */
 
 html {
-    background-image: url("../img/img1.png");
+    background-image: url("../img/img2.jpg");
 }
 
 body {
@@ -18,21 +18,96 @@ body {
     line-height: 1.5em;
 }
 
+
 h1,h2,h3,h4,h5,h6 {font-weight: bold;}
 
-h1 {
-    font-size: 26px;
-    margin: 0 0 20px;
-    color: #0C4569;
+p {
+  font-size: 25px;
+  font-family: 'Quicksand', serif;
+  font-weight: 400;
 }
+
+div.frontpage {
+  font-size: 25px;
+  font-family: 'Quicksand', serif;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 20px 0 40px;
+    color: #005339;
+    font-family: 'Satisfy';
+    padding: 5px 0px 15px 0px;
+    text-align: center;
+}
+
 h2 {
     font-size: 22px;
     margin: 15px 0;
 }
-h3 {
-    font-size: 18px;
-    margin: 15px 0 10px;
+
+#countdown {
+  margin: 40px 0px 40px;
+  font-size: 40px;
+  font-family: 'Roboto', serif;
+  font-weight: 700;
+  text-align: center;
 }
+
+h3 {
+    margin: 15px 0 10px;
+    font-size: 25px;
+    font-family: 'Roboto', serif;
+    font-weight: 700;
+}
+
+#ranking {
+  font-size: 50px;
+  font-family: 'Roboto', serif;
+  font-weight: 700;
+  color: #EC7030;
+}
+
+#share {
+  font-size: 20px;
+  font-family: 'Roboto', serif;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+#thankyou {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: 'Roboto', serif;
+  font-size: 25px;
+}
+
+#tryagain, #whew {
+  padding-top: 20px;
+  text-align: center;
+}
+
+div.questionCount {
+  margin-top: 15px;
+  font-size: 13px;
+  font-family: 'Roboto', serif;
+  font-weight: 400;
+}
+
+label {
+  font-size: 20px;
+  font-family: 'Roboto', serif;
+  font-weight: 400;
+}
+
+#correctspan, #incorrectspan {
+  font-size: 40px;
+  padding: 20px 0px 20px 0px;
+}
+
 h4 {
     font-size: 16px;
     margin: 10px 0;
@@ -46,6 +121,10 @@ h6 {
     margin: 5px 0;
 }
 
+.quizScore {
+  padding-bottom: 20px;
+}
+
 strong { font-weight: bold; }
 em { font-style: italic; }
 ul { list-style-type: circle; }
@@ -57,7 +136,7 @@ ol li { list-style-type: decimal; margin-left: 20px; }
     width: auto;
     padding: 5px 15px;
     color:#ffffff;
-    background-color:darkcyan;
+    background-color: #EC7030;
     border: 1px solid #fff;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -100,8 +179,10 @@ ol li { list-style-type: decimal; margin-left: 20px; }
 }
 
 ol.questions {
-    margin-top: 20px;
+    margin-top: 5px;
     margin-left: 0;
+    background-color: #F1F1F1;
+    padding: 5px 0px 30px 20px;
 }
 ol.questions li {
     margin-left: 0;
