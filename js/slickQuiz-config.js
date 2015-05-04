@@ -6,16 +6,16 @@ var quizJSON = {
     "info": {
         //"name":    "'Canes Challenge",
         "main":    "<p>Are you a <strong>true</strong> Miami Hurricane? Think you know all there is to being a 'Cane?</p> <div class ='frontpage'>Complete the 'Canes Challenge to find out!</div>",
-        "results": "<h5 id ='thankyou'>Thank you for accepting the 'Canes Challenge!</h5 id ='share'><p>Be sure to share the challenge with your friends and family to determine if they are truly a <strong>'Cane!</strong></p><p id='tryagain'><em>If you would like to try again, simply refresh this page.</em></p><p id='credits'><strong>Created By:</strong> Briana N. Scott</p><p id='purpose'>&copy; Brilieve, 2015. For educational purposes only.</p>",
-        "level1":  "Perfect Score! A <strong>true</strong> Miami Hurricane!",
-        "level2":  "UM Expert! You know you're stuff.",
+        "results": "<h5 id ='thankyou'>Thank you for accepting the 'Canes Challenge!</h5 id ='share'><p>Be sure to share the challenge with your friends and family to determine if they are truly <strong>'Canes!</strong></p><p id='tryagain'><em>If you would like to try again, simply refresh this page.</em></p><p id='credits'><strong>Created By:</strong> Briana N. Scott</p><p id='purpose'>&copy; Brilieve, 2015. For educational purposes only.</p>",
+        "level1":  "A <strong>true</strong> Miami Hurricane!",
+        "level2":  "UM Expert! You know your stuff.",
         "level3":  "Average UM Fan.",
         "level4":  "Gator in the Swamp",
         "level5":  "Seminole in Disguise" // no comma here
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "How many championships have the UM Baseball Team won?",
+            "q": "The UM Baseball Team has won how many championships?",
             "a": [
                 {"option": "2",      "correct": false},
                 {"option": "3",     "correct": false},
@@ -45,18 +45,18 @@ var quizJSON = {
                 {"option": "The Rock",                "correct": false},
                 {"option": "Ashe Building",          "correct": true} // no comma here
             ],
-            "correct": "<p><span id='correctspan'>Brilliant!</span> You are one observant cookie. Keep it up champ.</p>",
+            "correct": "<p><span id='correctspan'>Brilliant!</span> You are one observant cookie. Keep it up, champ.</p>",
             "incorrect": "<p><span id='incorrectspan'>Not Quite.</span>The University of Miami Seal can be found <strong>in front the Bookstore and in the Ashe Building.</strong> Next time you're on campus, be sure to pay more attention and <em> don't</em> step on the seal!</p>" // no comma here
         },
         { // Question 4
-            "q": "How many championships have the UM Football Team won?",
+            "q": "The UM Football Team has won how many championships?",
             "a": [
                 {"option": "7",    "correct": false},
                 {"option": "9",     "correct": false},
                 {"option": "5",      "correct": true},
                 {"option": "6",   "correct": false} // no comma here
             ],
-            "correct": "<p><span id='correctspan'>There is a Hurricane in the building!</span> Go Canes! You are Correct! The University of Miami Football team won five championships(1983, 1987, 1989, 1991, and 2001).</p>",
+            "correct": "<p><span id='correctspan'>There is a Hurricane in the building!</span> Go 'Canes! You are Correct! The University of Miami Football team has won five championships (1983, 1987, 1989, 1991, and 2001).</p>",
             "incorrect": "<p><span id='incorrectspan'>Fail. Absolute Fail.</span>End the challenge now. I can't. Seriously? The University of Miami Football team has won <strong>five championships</strong> (1983, 1987, 1989, 1991, and 2001).</p>" // no comma here
         },
         { // Question 5
@@ -65,8 +65,8 @@ var quizJSON = {
                 {"option": "Yes",    "correct": true},
                 {"option": "No",     "correct": false} // no comma here
             ],
-            "correct": "<p><span id='correctspan'>Why, yes. Of course they are. </span> Scientific evidence has proven that Florida State University is <strong>without a doubt</strong>, the worst school in the nation.</p>",
-            "incorrect": "<p><span id='incorrectspan'>...you need to go. Just go.</span>Contrary to your beliefs, scientific evidence has proven that Florida State University is <strong>without a doubt</strong>, the worst school in the nation.</p>" // no comma here
+            "correct": "<p><span id='correctspan'>Why, yes. Of course, they are. </span> Scientific evidence has proven that Florida State University is, <strong>without a doubt</strong>, the worst school in the nation.</p>",
+            "incorrect": "<p><span id='incorrectspan'>...you need to go. Just go.</span>Contrary to your beliefs, scientific evidence has proven that Florida State University is, <strong>without a doubt</strong>, the worst school in the nation.</p>" // no comma here
         },
         { // Question 6
             "q": "How many volumes of books/media are stored in Richter Library?",
@@ -76,19 +76,19 @@ var quizJSON = {
                 {"option": "3.5 Million",    "correct": true},
                 {"option": "4.8 Million",    "correct": false} // no comma here
             ],
-            "correct": "<p><span id='correctspan'>That's Right! </span>The University of Miami Libraries rank among the top research libraries in North America with a combined collection of over 3.5 million volumes and access to more than 90,000 electronic and print serials.</p>",
-            "incorrect": "<p><span id='incorrectspan'>Sorry, you are incorrect.</span> I can tell you didn't much time in the library, did you? The University of Miami Library holds 3.5 million volumes and access to more than 90,000 electronic and print serials.</p>" // no comma here
+            "correct": "<p><span id='correctspan'>That's Right! </span>The University of Miami Library ranks among the top research libraries in North America with a combined collection of over 3.5 million volumes of books/media and has access to more than 90,000 electronic and print serials.</p>",
+            "incorrect": "<p><span id='incorrectspan'>Sorry, you are incorrect.</span> I can tell you didn't spend much time in the library, did you? The University of Miami Library holds <strong>3.5 million</strong> volumes of books/media and has access to more than 90,000 electronic and print serials.</p>" // no comma here
         },
         { // Question 7
-            "q": "The University of Miami has how many Undergraduate Schools and Colleges?",
+            "q": "The University of Miami has how many <strong>total</strong> Schools and Colleges?",
             "a": [
                 {"option": "11",    "correct": true},
                 {"option": "10",    "correct": false},
                 {"option": "9",    "correct": false},
                 {"option": "8",    "correct": false} // no comma here
             ],
-            "correct": "<p><span id='correctspan'>Right on the Money!</span>The University of Miami has <strong>eleven</strong> total Schools and Colleges.</p>",
-            "incorrect": "<p><span id='incorrectspan'>Uh-Oh. Looks like you forgot a few.</span>The University of Miami has <strong>eleven</strong> total Schools and Colleges. </p>" // no comma here
+            "correct": "<p><span id='correctspan'>Right on the Money!</span>The University of Miami has <strong>eleven</strong> total Schools and Colleges located on three campuses in Coral Gables, Virginia Key, and downtown Miami.</p>",
+            "incorrect": "<p><span id='incorrectspan'>Uh-Oh. Looks like you forgot a few.</span>The University of Miami has <strong>eleven</strong> total Schools and Colleges located on three campuses in Coral Gables, Virginia Key, and downtown Miami. </p>" // no comma here
         },
         { // Question 8
             "q": "What year was the University of Miami founded?",

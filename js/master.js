@@ -8,7 +8,6 @@ $(function () {
 
 //TIMER-Countdown
 
-
 var seconds = 17;
 
 function secondPassed() {
