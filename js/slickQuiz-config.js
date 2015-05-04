@@ -80,15 +80,15 @@ var quizJSON = {
             "incorrect": "<p><span id='incorrectspan'>Sorry, you are incorrect.</span> I can tell you didn't spend much time in the library, did you? The University of Miami Library holds <strong>3.5 million</strong> volumes of books/media and has access to more than 90,000 electronic and print serials.</p>" // no comma here
         },
         { // Question 7
-            "q": "The University of Miami has how many <strong>total</strong> Schools and Colleges?",
+            "q": "The University of Miami has how many <em>total</em> Schools and Colleges?",
             "a": [
                 {"option": "11",    "correct": true},
                 {"option": "10",    "correct": false},
                 {"option": "9",    "correct": false},
                 {"option": "8",    "correct": false} // no comma here
             ],
-            "correct": "<p><span id='correctspan'>Right on the Money!</span>The University of Miami has <strong>eleven</strong> total Schools and Colleges located on three campuses in Coral Gables, Virginia Key, and downtown Miami.</p>",
-            "incorrect": "<p><span id='incorrectspan'>Uh-Oh. Looks like you forgot a few.</span>The University of Miami has <strong>eleven</strong> total Schools and Colleges located on three campuses in Coral Gables, Virginia Key, and downtown Miami. </p>" // no comma here
+            "correct": "<p><span id='correctspan'>Right on the Money!</span>The University of Miami has <strong>eleven</strong> total Schools and Colleges located on all three campuses in Coral Gables, Virginia Key, and downtown Miami.</p>",
+            "incorrect": "<p><span id='incorrectspan'>Uh-Oh. Looks like you forgot a few.</span>The University of Miami has <strong>eleven</strong> total Schools and Colleges located on all three campuses in Coral Gables, Virginia Key, and downtown Miami. </p>" // no comma here
         },
         { // Question 8
             "q": "What year was the University of Miami founded?",
