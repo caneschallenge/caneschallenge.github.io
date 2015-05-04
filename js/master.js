@@ -46,13 +46,6 @@ function disableButtons() {
 }
 
 
-//function disableButtons() {
-  //var buttons = document.getElementsByName('question0');
-  //for (var i = 0; i < buttons.length; i++) {
-    //buttons[i].disabled = true;
-  //}
-//}
-
 
 
 //Stop Timer after Submit is clicked
