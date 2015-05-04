@@ -2,7 +2,8 @@
 /* Styles to prettify the quiz page */
 
 html {
-    background-image: url("../img/img2.jpg");
+    background-image: url("../img/img5.jpg");
+    background-repeat: repeat-x;
 }
 
 body {
@@ -50,10 +51,11 @@ h2 {
 
 #countdown {
   margin: 40px 0px 40px;
-  font-size: 40px;
+  font-size: 50px;
   font-family: 'Roboto', serif;
   font-weight: 700;
   text-align: center;
+  color: #B5121B;
 }
 
 h3 {
@@ -64,7 +66,7 @@ h3 {
 }
 
 #ranking {
-  font-size: 50px;
+  font-size: 30px;
   font-family: 'Roboto', serif;
   font-weight: 700;
   color: #EC7030;
@@ -85,8 +87,23 @@ h3 {
   font-size: 25px;
 }
 
-#tryagain, #whew {
+#credits, #purpose {
   padding-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #FCF4E6;
+}
+
+#purpose{
+  padding-bottom: 20px;
+}
+
+#tryagain {
+  font-family: 'Roboto', serif;
+  color: #005339;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 25px;
   text-align: center;
 }
 
@@ -134,7 +151,7 @@ ol li { list-style-type: decimal; margin-left: 20px; }
 .button {
     float: left;
     width: auto;
-    padding: 5px 15px;
+    padding: 8px 18px;
     color:#ffffff;
     background-color: #EC7030;
     border: 1px solid #fff;
@@ -142,9 +159,10 @@ ol li { list-style-type: decimal; margin-left: 20px; }
     -moz-border-radius: 5px;
     border-radius: 5px;
 	text-decoration: none;
+  font-size: 20px;
 }
 .button:hover {
-    background-color:darkslategray;
+    background-color:#005339;
 }
 
 .startQuiz {

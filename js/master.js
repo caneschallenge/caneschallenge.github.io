@@ -9,10 +9,10 @@ $(function () {
 //TIMER-Countdown
 
 
-var seconds = 21;
+var seconds = 17;
 
 function secondPassed() {
-    var remainingSeconds = seconds % 21;
+    var remainingSeconds = seconds % 17;
     if (remainingSeconds < 1) {
         remainingSeconds = "0" + remainingSeconds;
     var countdownTimer = setInterval('secondPassed()', 1000);
@@ -32,7 +32,7 @@ function secondPassed() {
 
 function timesUp() {
   var message = document.getElementById('countdown');
-  message.textContent = "Time's Up";
+  message.textContent = "Time's Up!";
   //document.getElementById('countdown').textContent = "Time's Up!";
 }
 
@@ -73,7 +73,7 @@ function stopTimer() {
 
 
 function resetSecondpassed() {
-  seconds = 21;
+  seconds = 16;
   secondPassed();
   enableButtons();
 }
